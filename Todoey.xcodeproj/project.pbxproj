@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B012782210F570700BAE636 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B012781210F570700BAE636 /* SwipeTableViewController.swift */; };
 		5B5EC083210B4CDE00035117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5EC082210B4CDE00035117 /* AppDelegate.swift */; };
 		5B5EC085210B4CDE00035117 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5EC084210B4CDE00035117 /* TodoListViewController.swift */; };
 		5B5EC088210B4CDE00035117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5EC086210B4CDE00035117 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		09562EA3939E02E1651B7EE7 /* Pods_Todoey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todoey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B552C7B1468A90494CCDBB3 /* Pods-Todoey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoey.release.xcconfig"; path = "Pods/Target Support Files/Pods-Todoey/Pods-Todoey.release.xcconfig"; sourceTree = "<group>"; };
+		5B012781210F570700BAE636 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		5B5EC07F210B4CDE00035117 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5EC082210B4CDE00035117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B5EC084210B4CDE00035117 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		5BDFFE23210B7C51008C0C1E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5B012781210F570700BAE636 /* SwipeTableViewController.swift */,
 				5B963990210CE86B00539B73 /* CategoryViewController.swift */,
 				5B5EC084210B4CDE00035117 /* TodoListViewController.swift */,
 			);
@@ -249,6 +252,7 @@
 				5B963991210CE86B00539B73 /* CategoryViewController.swift in Sources */,
 				5B5EC085210B4CDE00035117 /* TodoListViewController.swift in Sources */,
 				5B5EC083210B4CDE00035117 /* AppDelegate.swift in Sources */,
+				5B012782210F570700BAE636 /* SwipeTableViewController.swift in Sources */,
 				5B9BC9F0210DC72D00AE1DBA /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
